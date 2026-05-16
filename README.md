@@ -93,12 +93,15 @@ Monitors chronic condition follow-up compliance.
 ```text
 Epic-MyChart-PowerBI-Analytics/
 │
-├── data/
-├── notebooks/
-├── sql/
-├── powerbi/
-├── images/
-└── README.md
+├── data/                  # Synthetic healthcare datasets (raw/processed)
+├── notebooks/             # Jupyter Notebooks for EDA and prototyping
+├── python/                # Python scripts for data generation and ETL pipelines
+│   ├── data_generation.py # Script to simulate synthetic EHR & MyChart data
+│   └── data_cleaning.py   # Script for data transformation and preprocessing
+├── sql/                   # SQL reporting and analytical queries
+├── powerbi/               # Power BI Desktop files (.pbix) and templates
+├── images/                # Dashboard screenshots and architecture diagrams
+└── README.md              # Project documentation
 ```
 
 ---
